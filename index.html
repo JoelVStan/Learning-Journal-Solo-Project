@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Learning Journal</title>
+</head>
+<body class="font-Open_Sans">
+    <!-- nav bar -->
+    <nav class="relative container mx-auto p-6"> <!-- mx-auto to center the elements -->
+        <!-- flex container -->
+        <div class="flex items-center justify-between"> 
+            <!-- logo -->
+            <div>
+                <h1 class="font-black text-[1.5em] hover:text-blue-500 cursor-pointer md:text-[1.75em]">Learning Journal</h1>
+            </div>
+            <!-- menu items  -->
+            <div class="hidden md:flex space-x-10"> <!-- hidden-mobile first -->
+                <a href="#" class="font-bold uppercase hover:text-blue-500">Home</a>
+                <a href="#" class="font-bold uppercase hover:text-blue-500">About Me</a>
+            </div>
+
+            <!-- hamburger icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!-- hamburger menu -->
+        <div class="md:hidden">
+            <div id="menu" class="hidden flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#">Home</a>
+                <a href="#">About Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- hero section with image  -->
+        <section>
+            <div class="w-full min-h-[350px] bg-[url('/images/article-image-1.jpg')] bg-no-repeat bg-cover relative bg-center justify-center items-center md:min-h-[500px]">
+                <div class="flex flex-col text-white py-[1em] mx-auto absolute bottom-[1em] left-[1.25em]">
+                    <p class="text-[0.75em] uppercase mb-2">July 16, 2023</p>
+                    <h1 class="font-black text-[2em] hover:text-yellow-200 cursor-pointer leading-9 mb-2 md:text-[2.25em]">My new journey as a bootcamp student.</h1>
+                    <p class="mr-10 md:max-w-[600px]">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- articles -->
+        <section>
+            <div class="flex flex-col justify-between md:flex-row md:m-6">
+                <!-- article 1 -->
+                <div class="w-sm p-6 items-center space-y-3">
+                    <!-- image 1 -->
+                    <div class="w-full rounded">
+                        <img src="images/article-image-2.jpg" alt="">
+                    </div>
+                    <!-- date title desc 1 -->
+                    <div class="flex flex-col space-y-2">
+                        <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
+                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+                <!-- article 2 -->
+                <div class="w-sm p-6 items-center space-y-3">
+                    <!-- image 2 -->
+                    <div class="w-full rounded">
+                        <img src="images/article-image-2.jpg" alt="">
+                    </div>
+                    <!-- date title desc 2 -->
+                    <div class="flex flex-col space-y-2">
+                        <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
+                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+                <!-- article 3 -->
+                <div class="w-sm p-6 items-center space-y-3">
+                    <!-- image 3-->
+                    <div class="w-full rounded">
+                        <img src="images/article-image-2.jpg" alt="">
+                    </div>
+                    <!-- date title desc 3  -->
+                    <div class="flex flex-col space-y-2">
+                        <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
+                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- only in wide screen hidden below md -->
+            <div class="hidden flex-col justify-between md:flex md:flex-row md:m-6">
+                <!-- article 1 -->
+                <div class="w-sm p-6 items-center space-y-3">
+                    <!-- image 1 -->
+                    <div class="w-full rounded">
+                        <img src="images/article-image-2.jpg" alt="">
+                    </div>
+                    <!-- date title desc 1 -->
+                    <div class="flex flex-col space-y-2">
+                        <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
+                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+                <!-- article 2 -->
+                <div class="w-sm p-6 items-center space-y-3">
+                    <!-- image 2 -->
+                    <div class="w-full rounded">
+                        <img src="images/article-image-2.jpg" alt="">
+                    </div>
+                    <!-- date title desc 2 -->
+                    <div class="flex flex-col space-y-2">
+                        <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
+                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+                <!-- article 3 -->
+                <div class="w-sm p-6 items-center space-y-3">
+                    <!-- image 3-->
+                    <div class="w-full rounded">
+                        <img src="images/article-image-2.jpg" alt="">
+                    </div>
+                    <!-- date title desc 3  -->
+                    <div class="flex flex-col space-y-2">
+                        <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
+                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center mb-10">
+                <a href="#" class="font-bold underline">View More</a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 h-[105px]">
+        <div class="flex flex-col items-center justify-between text-center p-7">
+            <p class="font-bold text-white">My Learning Journal</p>
+            <p class="text-white">Copyright ©2022</p>
+        </div>
+    </footer>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
