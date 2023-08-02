@@ -8,7 +8,7 @@
 </head>
 <body class="font-Open_Sans">
     <!-- nav bar -->
-    <nav class="relative container mx-auto p-6"> <!-- mx-auto to center the elements -->
+    <nav class="relative container mx-auto py-6 px-12"> <!-- mx-auto to center the elements -->
         <!-- flex container -->
         <div class="flex items-center justify-between"> 
             <!-- logo -->
@@ -17,8 +17,8 @@
             </div>
             <!-- menu items  -->
             <div class="hidden md:flex space-x-10"> <!-- hidden-mobile first -->
-                <a href="#" class="font-bold uppercase hover:text-blue-500">Home</a>
-                <a href="#" class="font-bold uppercase hover:text-blue-500">About Me</a>
+                <a href="index.html" class="font-bold uppercase hover:text-blue-500">Home</a>
+                <a href="about.html" class="font-bold uppercase hover:text-blue-500">About Me</a>
             </div>
 
             <!-- hamburger icon -->
@@ -31,9 +31,9 @@
 
         <!-- hamburger menu -->
         <div class="md:hidden">
-            <div id="menu" class="hidden flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-                <a href="#">Home</a>
-                <a href="#">About Me</a>
+            <div id="menu" class="flex-col items-center hidden self-end py-8 mt-6 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
             </div>
         </div>
     </nav>
@@ -44,7 +44,7 @@
             <div class="w-full min-h-[350px] bg-[url('/images/article-image-1.jpg')] bg-no-repeat bg-cover relative bg-center justify-center items-center md:min-h-[500px]">
                 <div class="flex flex-col text-white py-[1em] mx-auto absolute bottom-[1em] left-[1.25em]">
                     <p class="text-[0.75em] uppercase mb-2">July 16, 2023</p>
-                    <h1 class="font-black text-[2em] hover:text-yellow-200 cursor-pointer leading-9 mb-2 md:text-[2.25em]">My new journey as a bootcamp student.</h1>
+                    <a href="article.html" class="font-black text-[2em] hover:text-blue-300 cursor-pointer leading-9 mb-2 md:text-[2.25em]">My new journey as a bootcamp student.</a>
                     <p class="mr-10 md:max-w-[600px]">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                     <!-- date title desc 1 -->
                     <div class="flex flex-col space-y-2">
                         <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
-                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <a href="#" class="text-2xl font-bold hover:text-blue-700">Blog One</a>
                         <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                     <!-- date title desc 2 -->
                     <div class="flex flex-col space-y-2">
                         <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
-                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <a href="#" class="text-2xl font-bold hover:text-blue-700">Blog One</a>
                         <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                     <!-- date title desc 3  -->
                     <div class="flex flex-col space-y-2">
                         <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
-                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <a href="" class="text-2xl font-bold hover:text-blue-700">Blog One</a>
                         <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                     <!-- date title desc 1 -->
                     <div class="flex flex-col space-y-2">
                         <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
-                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <a href="#" class="text-2xl font-bold hover:text-blue-700">Blog One</a>
                         <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                     <!-- date title desc 2 -->
                     <div class="flex flex-col space-y-2">
                         <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
-                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <a href="" class="text-2xl font-bold hover:text-blue-700">Blog One</a>
                         <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                     </div>
                 </div>
@@ -130,13 +130,13 @@
                     <!-- date title desc 3  -->
                     <div class="flex flex-col space-y-2">
                         <p class="text-[12px] font-medium uppercase">July 23, 2022</p>
-                        <h2 class="text-2xl font-bold">Blog One</h2>
+                        <a href="#" class="text-2xl font-bold hover:text-blue-700">Blog One</a>
                         <p class="font-sm">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                     </div>
                 </div>
             </div>
             <div class="flex justify-center mb-10">
-                <a href="#" class="font-bold underline">View More</a>
+                <a href="#" class="font-bold hover:underline hover:text-blue-700">View More</a>
             </div>
         </section>
     </main>
